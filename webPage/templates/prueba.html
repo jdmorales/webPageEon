@@ -1,35 +1,36 @@
 <html>
 <head>
-    <title>eon-LT</title>
+    <title>Eon-LT</title>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="{{STATIC_URL}}CSS/bootstrap/css/bootstrap.css" type="text/css">
 
-    <link rel="stylesheet" href="{{STATIC_URL}}CSS/normalize.css" type="text/css">
+    <link rel="stylesheet" href="{{STATIC_URL}}css/normalize.css" type="text/css">
 
-    <link rel="stylesheet" href="{{STATIC_URL}}CSS/Skins/Pos/pos_theme1.css" type="text/css">
-    <link rel="stylesheet" href="{{STATIC_URL}}CSS/Skins/themes/Style_theme1.css" type="text/css">
 
-    <link rel="stylesheet" href="{{STATIC_URL}}CSS/animate.css" type="text/css">
+    <link  rel="stylesheet" href="{{STATIC_URL}}css/Skins/style_1WebPageEon.css" type="text/css" >
 
-     <script src="{{STATIC_URL}}CSS/bootstrap/js/angular.js"></script>
+    <link rel="icon" type="image/png" href="{{STATIC_URL}}images/favicons/fav_white_md_64.png" />
+
+   <script src="{{STATIC_URL}}CSS/bootstrap/js/angular.js"></script>
 
 </head>
-<body ng-app="webPageEon">
+<body ng-app="webPageEon" class="raining">
  <div class="wrap">
 
       <!-- Begin page content -->
       <div class="row-docs-container">
-        <div class="row-docs-header">
-              <div class="container-fluid head aling-one">
-                  <img src="{{STATIC_URL}}images/logo/logo_eon.png" class="logo  middle">
+        <div class="row-docs-header raining">
+              <div class="container-fluid head bar_logo">
+                  <div class="eon_logo_white logo"></div>
               </div>
-             <div class="container-fluid text-center navMenu">
+             <div class="container-fluid text-center nav_menu">
                  <div class="menu-top">
-                   <div class="singUp-icon btn " popover-trigger="mouseenter" popover="singUp"></div>
+                   <div class="sing_up-icon btn " popover-trigger="mouseenter" popover="singUp"></div>
                    <div class="login-icon  btn" popover-trigger="mouseenter" popover="login"></div>
-                   <div class="contactUs-icon  btn" popover-trigger="mouseenter" popover="contactUs"></div>
-                   <div class="logout-icon  btn " popover-trigger="mouseenter" popover="logOut"></div>
+                   <div class="contact_us-icon  btn" popover-trigger="mouseenter" popover="contactUs"></div>
+                   <div class="log_out-icon  btn " popover-trigger="mouseenter" popover="logOut"></div>
                  </div>
              </div>
          </div>
@@ -42,7 +43,7 @@
                           </div>
                       </div>
 
-                      <div class="infoContainer  col-lg-9 col-md-10">
+                      <div class="info_container  col-lg-9 col-md-10">
                              <my-tabs>
                               <my-pane title="Hello">
                                 <h4>Hello sasdsadsadasdsa</h4>
